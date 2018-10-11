@@ -4,7 +4,9 @@
 ** File description:
 ** Task01
 */
+#ifndef MY
+#define MY
 
-#include <my_macroABS.h>
-#define	ABS(my_nb) ((my_nb) < (0) ? (-my_nb) : (my_nb)
+#define	ABS(my_nb) ((my_nb < 0) ? (-my_nb) : (my_nb))
 
+#endif /* MY */
